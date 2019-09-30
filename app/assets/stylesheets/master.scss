@@ -1,4 +1,6 @@
 @import "bootstrap";
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+
 
 .booyah-box {
   -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
@@ -27,4 +29,11 @@ body {
   background: image_url('cross.png');
     box-shadow: 0px 1px 3px #2a2a2a;
 
+}
+
+.navbar-inverse .navbar-brand {
+  color: #E3E85A;
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
 }
