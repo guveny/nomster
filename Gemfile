@@ -7,9 +7,9 @@ ruby '2.5.3'
 gem 'rails', '~> 5.2.3'
 #
 #
-# Added by myself 
+# Added by Guven 
 gem 'jquery-rails'
-
+gem "font-awesome-rails"
 #
 #
 #
