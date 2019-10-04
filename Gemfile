@@ -8,6 +8,8 @@ gem 'rails', '~> 5.2.3'
 #
 #
 # Added by Guven 
+gem "figaro"
+gem "geocoder"
 gem 'jquery-rails'
 gem "font-awesome-rails"
 #
