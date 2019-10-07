@@ -13,7 +13,7 @@
     }
     
   </style>
-  <% if @place.latitude.present? && @place.longitude.present? %>
+<% if @place.latitude.present? && @place.longitude.present? %>
 
   <script>
 
@@ -33,16 +33,17 @@
     }
   </script>
 
-<br />
 
-<script async defer
-  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0XQO2Bs7vVmdgwSPKtcwYnWapiQojSjQ&callback=initMap">
+  <script async defer
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2KSjie_KhsaoAs-5cxJzkHQHajFK36lw&callback=initMap">
   </script>
 
 
 <div id="map"></div>
 
 <% end %>
+
+<br />
 
   <div class="float-right">
     <% if current_user && current_user == @place.user %>
