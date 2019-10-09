@@ -35,7 +35,7 @@
 
 
 <div id="map"></div>
-  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2KSjie_KhsaoAs-5cxJzkHQHajFK36lw&callback=initMap" async defer></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB2KSjie_KhsaoAs-5cxJzkHQHajFK36lw&callback=initMap"></script>
 
 
 
@@ -54,7 +54,7 @@
 <br />
 
 <div class="booyah-box col-10 offset-1">
-<%= simple_form_for @comment, url: '#' do |f| %>
+<%= simple_form_for @comment, url: place_comments_path(@place) do |f| %>
   <%= f.input :message %>
   <%= f.input :rating %>
   <%= f.submit "Add a Comment", class: 'btn btn-primary' %>
