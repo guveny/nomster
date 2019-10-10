@@ -12,6 +12,7 @@ gem "figaro"
 gem "geocoder"
 gem 'jquery-rails'
 gem "font-awesome-rails"
+gem 'carrierwave', '~> 1.0'
 #
 #
 #
