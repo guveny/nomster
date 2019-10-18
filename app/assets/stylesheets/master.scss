@@ -63,7 +63,7 @@ blockquote {
   quotes: "\201C""\201D""\2018""\2019";
 }
 
-blockquote:before {
+.photo-display {
   color: #ccc;
   content: open-quote;
   font-size: 4em;
@@ -72,6 +72,19 @@ blockquote:before {
   vertical-align: -0.4em;
 }
 
-blockquote p {
+.photo-display p {
   display: inline;
 }
+
+place-photo-item{
+  display: inline-block;
+  }
+  .place-photo {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
